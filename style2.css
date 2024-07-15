@@ -1,0 +1,101 @@
+/* For small devices (phones, 768px and below) */
+@media only screen and (max-width: 768px) {
+    /* Navbar adjustments */
+    nav .nav_content {
+        padding: 1rem 0.5rem;
+    }
+
+    .menu_bar {
+        margin: 6px 0px;
+    }
+
+    ul {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+
+    ul li {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-item {
+        position: static;
+    }
+
+    .dropdown-menu {
+        position: static;
+        display: none;
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .login_btn, .sign_btn {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    /* Banner adjustments */
+    .banner {
+        min-height: 400px;
+    }
+
+    .banner .block {
+        padding: 40px 0px 80px;
+    }
+
+    .banner .block h1 {
+        font-size: 40px;
+    }
+
+    /* Feature adjustments */
+    .features-row {
+        flex-direction: column;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    /* About adjustments */
+    .about-page {
+        flex-direction: column;
+    }
+
+    .ab-page-1 p {
+        width: 100%;
+    }
+
+    .ab-page-2 img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* Awards adjustments */
+    .awards-heading h2 {
+        font-size: 30px;
+    }
+
+    .awards-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        margin-left: 0;
+    }
+}
+
+/* For medium devices (tablets, 768px - 992px) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* Add specific adjustments here */
+}
+
+/* For large devices (desktops, 992px and above) */
+@media only screen and (min-width: 992px) {
+    /* Add specific adjustments here */
+}
