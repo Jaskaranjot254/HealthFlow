@@ -336,7 +336,7 @@ ul li a:hover {
 }
 
 .feature-item {
-    width: 400px;
+    /*width: 400px;*/
     flex-basis: 33.33%;
     margin: 0px 10px;
     padding: 40px 30px;
@@ -1276,7 +1276,7 @@ p {
 
 .page-title .block h1 {
     color: #fff;
-    font-size: 50px;
+    font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 3rem;
 }
@@ -1796,8 +1796,8 @@ button.active{
 
     nav #check:checked~ul {
         left: 0;
-        /* height: 300px; */
-        top: 800px;
+         height: 500px; 
+        top: 80px;
 
     }
 
@@ -1855,6 +1855,14 @@ button.active{
         width: auto;
     }
 
+    .ab-page-1{
+        width:100%;
+    }
+
+    .ab-page-1 p{
+        width:100%;
+    }
+
     .cta-section {
         margin-left: 10px;
     }
@@ -1895,6 +1903,9 @@ button.active{
         width: 100%;
     }
 
+    .appointment-content .emergency{
+        padding:0px;
+    }
     .form-section {
         /* width: 100%; */
         display: flex;
@@ -1952,6 +1963,12 @@ button.active{
         display: block;
         width: 50%;
         margin-left: 100px;
+    }
+
+    .contact-box{
+        border:none;
+        padding:0px;
+        margin:auto;
     }
 }
 
